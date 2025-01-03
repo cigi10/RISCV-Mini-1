@@ -6,8 +6,6 @@
 // A register file allows the CPU to quickly read from or write to any of the registers.
 
 //////////////////////////////////////////////////////////////////////////////////
-
-
 module Reg_File(input logic clk, input logic reset, input logic RegWrite, input logic [4:0] Rs1, input logic [4:0] Rs2, input logic [4:0] Rd, input logic [31:0] Write_data, output logic [31:0] read_data1, output logic [31:0] read_data2);
 reg [31:0] Registers [31:0];
 integer i;
