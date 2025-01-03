@@ -1,11 +1,9 @@
 `timescale 1ns / 1ps
-
 //////////////////////////////////////////////////////////////////////////////////
 
 // refer to ALU_Control.sv
 
 //////////////////////////////////////////////////////////////////////////////////
-
 module ALU_unit(input logic [31:0] A, input logic [31:0] B, input logic [3:0] Control_in, output reg [31:0] ALU_Result, output reg zero);
  always @(Control_in, A, B) begin
     case (Control_in)
