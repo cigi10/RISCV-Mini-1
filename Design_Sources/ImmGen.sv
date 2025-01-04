@@ -9,8 +9,6 @@
 // It also processes this immediate value, such as performing sign extension, before passing it on to other parts of the processor.
 
 //////////////////////////////////////////////////////////////////////////////////
-
-
 module ImmGen(input logic [6:0] Opcode, input logic [31:0] instruction, output logic [31:0] ImmExt);
 always @(*)
 begin 
