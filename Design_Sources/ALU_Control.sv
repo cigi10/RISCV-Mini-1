@@ -11,9 +11,7 @@
 // It connects the instruction decoder to the ALU, translating instruction fields into actionable control signals.
 
 //////////////////////////////////////////////////////////////////////////////////
-
 module ALU_Control(input logic fun7, input logic [2:0] fun3, input logic [1:0] ALUOp, output reg [3:0] Control_out);
-
   always @(*) begin
     case ({ALUOp, fun7, fun3})
       6'b00_0_000: Control_out <= 4'b0010;
