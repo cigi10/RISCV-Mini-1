@@ -1,9 +1,6 @@
 `timescale 1ns / 1ps 
-
 //////////////////////////////////////////////////////////////////////////////////
-
 //All modules instantiate here
-
 module top(input logic clk, input logic reset);
 wire [31:0] PC_top;
 wire [31:0] instruction_top;
