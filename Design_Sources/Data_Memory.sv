@@ -7,7 +7,6 @@
 // Sizes vary by model, with PIC16F offering up to 368 bytes of SRAM and 256 bytes of EEPROM.
 
 //////////////////////////////////////////////////////////////////////////////////
-
     module Data_Memory(input logic clk, input logic reset, input logic MemWrite, input logic MemRead, input logic [31:0] read_address, input logic [31:0] Write_data, output logic [31:0] MemData_out);
       reg [31:0] D_Memory [63:0];
       integer i;
