@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-
 //////////////////////////////////////////////////////////////////////////////////
 // Program Counter or PC for short : 
 // Special register that contains the memory address of the next instruction to be performed/executed -> pointer in simple terms
@@ -8,7 +7,6 @@
 //  else it does something different)
 //////////////////////////////////////////////////////////////////////////////////
 module Program_Counter(input logic clk, input logic reset, input logic [31:0] PC_in, output logic [31:0] PC_out);
-
 always @(posedge clk or posedge reset)
 begin 
 if(reset)
