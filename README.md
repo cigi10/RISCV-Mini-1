@@ -1,4 +1,11 @@
-# RISCV-Mini-1
+# RISCV_Mini_1
+
+![RISC-V](https://img.shields.io/badge/RISC--V-Single--Cycle-blue)
+![Verilog](https://img.shields.io/badge/Verilog-Hardware%20Design-orange)
+![Simulation](https://img.shields.io/badge/Simulation-ModelSim%20%7C%20Vivado-red)
+![32-bit](https://img.shields.io/badge/32--bit-Processor-brightgreen)
+
+---
 
 **Type**: RISC-V Single-Cycle Processor  
 
